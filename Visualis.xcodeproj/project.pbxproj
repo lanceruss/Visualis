@@ -13,6 +13,9 @@
 		DBA539861FC5CF5A00E9AC7B /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA539851FC5CF5A00E9AC7B /* WelcomeViewController.swift */; };
 		DBA5398C1FC5D73900E9AC7B /* SelectFilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA5398B1FC5D73900E9AC7B /* SelectFilterViewController.swift */; };
 		DBA5398E1FC5D74E00E9AC7B /* GenreBlocksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA5398D1FC5D74E00E9AC7B /* GenreBlocksViewController.swift */; };
+		DBA539901FC5D7BF00E9AC7B /* Welcome.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBA5398F1FC5D7BF00E9AC7B /* Welcome.storyboard */; };
+		DBA539921FC5D7E400E9AC7B /* SelectFilter.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBA539911FC5D7E400E9AC7B /* SelectFilter.storyboard */; };
+		DBA539941FC5D7FA00E9AC7B /* GenreBlocks.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBA539931FC5D7FA00E9AC7B /* GenreBlocks.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		DBA539851FC5CF5A00E9AC7B /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WelcomeViewController.swift; path = ../Welcome/WelcomeViewController.swift; sourceTree = "<group>"; };
 		DBA5398B1FC5D73900E9AC7B /* SelectFilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SelectFilterViewController.swift; path = "Visualis/View - View Controllers/Select Filter/SelectFilterViewController.swift"; sourceTree = SOURCE_ROOT; };
 		DBA5398D1FC5D74E00E9AC7B /* GenreBlocksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GenreBlocksViewController.swift; path = "Visualis/View - View Controllers/Genre Blocks/GenreBlocksViewController.swift"; sourceTree = SOURCE_ROOT; };
+		DBA5398F1FC5D7BF00E9AC7B /* Welcome.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Welcome.storyboard; path = "Visualis/View - View Controllers/Welcome/Welcome.storyboard"; sourceTree = SOURCE_ROOT; };
+		DBA539911FC5D7E400E9AC7B /* SelectFilter.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = SelectFilter.storyboard; path = "Visualis/View - View Controllers/Select Filter/SelectFilter.storyboard"; sourceTree = SOURCE_ROOT; };
+		DBA539931FC5D7FA00E9AC7B /* GenreBlocks.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = GenreBlocks.storyboard; path = "Visualis/View - View Controllers/Genre Blocks/GenreBlocks.storyboard"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +116,7 @@
 		DBA539871FC5CF5E00E9AC7B /* Welcome */ = {
 			isa = PBXGroup;
 			children = (
+				DBA5398F1FC5D7BF00E9AC7B /* Welcome.storyboard */,
 				DBA539851FC5CF5A00E9AC7B /* WelcomeViewController.swift */,
 			);
 			name = Welcome;
@@ -119,6 +126,7 @@
 		DBA539881FC5D64400E9AC7B /* Select Filter */ = {
 			isa = PBXGroup;
 			children = (
+				DBA539911FC5D7E400E9AC7B /* SelectFilter.storyboard */,
 				DBA5398B1FC5D73900E9AC7B /* SelectFilterViewController.swift */,
 			);
 			name = "Select Filter";
@@ -128,6 +136,7 @@
 		DBA539891FC5D68300E9AC7B /* Genre Blocks */ = {
 			isa = PBXGroup;
 			children = (
+				DBA539931FC5D7FA00E9AC7B /* GenreBlocks.storyboard */,
 				DBA5398D1FC5D74E00E9AC7B /* GenreBlocksViewController.swift */,
 			);
 			name = "Genre Blocks";
@@ -193,8 +202,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBA539941FC5D7FA00E9AC7B /* GenreBlocks.storyboard in Resources */,
+				DBA539921FC5D7E400E9AC7B /* SelectFilter.storyboard in Resources */,
 				DBA539791FC5C31800E9AC7B /* LaunchScreen.storyboard in Resources */,
 				DBA539761FC5C31800E9AC7B /* Assets.xcassets in Resources */,
+				DBA539901FC5D7BF00E9AC7B /* Welcome.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
