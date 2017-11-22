@@ -16,6 +16,8 @@
 		DBA539901FC5D7BF00E9AC7B /* Welcome.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBA5398F1FC5D7BF00E9AC7B /* Welcome.storyboard */; };
 		DBA539921FC5D7E400E9AC7B /* SelectFilter.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBA539911FC5D7E400E9AC7B /* SelectFilter.storyboard */; };
 		DBA539941FC5D7FA00E9AC7B /* GenreBlocks.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBA539931FC5D7FA00E9AC7B /* GenreBlocks.storyboard */; };
+		DBA539961FC5D86A00E9AC7B /* NetworkLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA539951FC5D86A00E9AC7B /* NetworkLayer.swift */; };
+		DBA539981FC5D89600E9AC7B /* LastfmAPIHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA539971FC5D89600E9AC7B /* LastfmAPIHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		DBA5398F1FC5D7BF00E9AC7B /* Welcome.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Welcome.storyboard; path = "Visualis/View - View Controllers/Welcome/Welcome.storyboard"; sourceTree = SOURCE_ROOT; };
 		DBA539911FC5D7E400E9AC7B /* SelectFilter.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = SelectFilter.storyboard; path = "Visualis/View - View Controllers/Select Filter/SelectFilter.storyboard"; sourceTree = SOURCE_ROOT; };
 		DBA539931FC5D7FA00E9AC7B /* GenreBlocks.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = GenreBlocks.storyboard; path = "Visualis/View - View Controllers/Genre Blocks/GenreBlocks.storyboard"; sourceTree = SOURCE_ROOT; };
+		DBA539951FC5D86A00E9AC7B /* NetworkLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLayer.swift; sourceTree = "<group>"; };
+		DBA539971FC5D89600E9AC7B /* LastfmAPIHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastfmAPIHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +97,8 @@
 		DBA539821FC5CE1F00E9AC7B /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				DBA539951FC5D86A00E9AC7B /* NetworkLayer.swift */,
+				DBA539971FC5D89600E9AC7B /* LastfmAPIHandler.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -220,6 +226,8 @@
 				DBA5398E1FC5D74E00E9AC7B /* GenreBlocksViewController.swift in Sources */,
 				DBA5396F1FC5C31800E9AC7B /* AppDelegate.swift in Sources */,
 				DBA5398C1FC5D73900E9AC7B /* SelectFilterViewController.swift in Sources */,
+				DBA539961FC5D86A00E9AC7B /* NetworkLayer.swift in Sources */,
+				DBA539981FC5D89600E9AC7B /* LastfmAPIHandler.swift in Sources */,
 				DBA539861FC5CF5A00E9AC7B /* WelcomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
