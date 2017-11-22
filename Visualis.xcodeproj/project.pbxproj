@@ -11,6 +11,8 @@
 		DBA539761FC5C31800E9AC7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBA539751FC5C31800E9AC7B /* Assets.xcassets */; };
 		DBA539791FC5C31800E9AC7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBA539771FC5C31800E9AC7B /* LaunchScreen.storyboard */; };
 		DBA539861FC5CF5A00E9AC7B /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA539851FC5CF5A00E9AC7B /* WelcomeViewController.swift */; };
+		DBA5398C1FC5D73900E9AC7B /* SelectFilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA5398B1FC5D73900E9AC7B /* SelectFilterViewController.swift */; };
+		DBA5398E1FC5D74E00E9AC7B /* GenreBlocksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA5398D1FC5D74E00E9AC7B /* GenreBlocksViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,7 +21,9 @@
 		DBA539751FC5C31800E9AC7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DBA539781FC5C31800E9AC7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DBA5397A1FC5C31800E9AC7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DBA539851FC5CF5A00E9AC7B /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		DBA539851FC5CF5A00E9AC7B /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WelcomeViewController.swift; path = ../Welcome/WelcomeViewController.swift; sourceTree = "<group>"; };
+		DBA5398B1FC5D73900E9AC7B /* SelectFilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SelectFilterViewController.swift; path = "Visualis/View - View Controllers/Select Filter/SelectFilterViewController.swift"; sourceTree = SOURCE_ROOT; };
+		DBA5398D1FC5D74E00E9AC7B /* GenreBlocksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GenreBlocksViewController.swift; path = "Visualis/View - View Controllers/Genre Blocks/GenreBlocksViewController.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,7 @@
 				DBA5396E1FC5C31800E9AC7B /* AppDelegate.swift */,
 				DBA539811FC5CDDD00E9AC7B /* Model */,
 				DBA539831FC5CE5300E9AC7B /* Model Views */,
-				DBA539801FC5CD8600E9AC7B /* View */,
+				DBA539801FC5CD8600E9AC7B /* View - View Controllers */,
 				DBA539821FC5CE1F00E9AC7B /* Controller */,
 				DBA539841FC5CE6400E9AC7B /* Support */,
 				DBA539771FC5C31800E9AC7B /* LaunchScreen.storyboard */,
@@ -63,12 +67,14 @@
 			path = Visualis;
 			sourceTree = "<group>";
 		};
-		DBA539801FC5CD8600E9AC7B /* View */ = {
+		DBA539801FC5CD8600E9AC7B /* View - View Controllers */ = {
 			isa = PBXGroup;
 			children = (
 				DBA539871FC5CF5E00E9AC7B /* Welcome */,
+				DBA539881FC5D64400E9AC7B /* Select Filter */,
+				DBA539891FC5D68300E9AC7B /* Genre Blocks */,
 			);
-			path = View;
+			path = "View - View Controllers";
 			sourceTree = "<group>";
 		};
 		DBA539811FC5CDDD00E9AC7B /* Model */ = {
@@ -108,6 +114,24 @@
 			);
 			name = Welcome;
 			path = "New Group";
+			sourceTree = "<group>";
+		};
+		DBA539881FC5D64400E9AC7B /* Select Filter */ = {
+			isa = PBXGroup;
+			children = (
+				DBA5398B1FC5D73900E9AC7B /* SelectFilterViewController.swift */,
+			);
+			name = "Select Filter";
+			path = "../Select Filter";
+			sourceTree = "<group>";
+		};
+		DBA539891FC5D68300E9AC7B /* Genre Blocks */ = {
+			isa = PBXGroup;
+			children = (
+				DBA5398D1FC5D74E00E9AC7B /* GenreBlocksViewController.swift */,
+			);
+			name = "Genre Blocks";
+			path = "../Genre Blocks";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,7 +205,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBA5398E1FC5D74E00E9AC7B /* GenreBlocksViewController.swift in Sources */,
 				DBA5396F1FC5C31800E9AC7B /* AppDelegate.swift in Sources */,
+				DBA5398C1FC5D73900E9AC7B /* SelectFilterViewController.swift in Sources */,
 				DBA539861FC5CF5A00E9AC7B /* WelcomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
