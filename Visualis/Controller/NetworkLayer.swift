@@ -7,3 +7,11 @@
 //
 
 import Foundation
+
+class NetworkLayer {
+	
+	func loadSongs() {
+		
+	}
+	
+}
